@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberBaseConverter", "Numb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonParser", "JsonParser", "{F2C31364-8AA3-4B1C-BE92-0664BF40FAA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParser", "JsonParser\JsonParser\JsonParser.csproj", "{7A681EF3-AAA9-4771-823A-C68A9C8412C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +21,19 @@ Global
 		{93E084D5-735C-49E6-BA74-FEDCBDB199A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E084D5-735C-49E6-BA74-FEDCBDB199A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E084D5-735C-49E6-BA74-FEDCBDB199A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A681EF3-AAA9-4771-823A-C68A9C8412C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A681EF3-AAA9-4771-823A-C68A9C8412C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A681EF3-AAA9-4771-823A-C68A9C8412C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A681EF3-AAA9-4771-823A-C68A9C8412C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{93E084D5-735C-49E6-BA74-FEDCBDB199A2} = {5D5BA75E-3AB9-4B2B-B7F3-610D72171734}
+		{7A681EF3-AAA9-4771-823A-C68A9C8412C1} = {F2C31364-8AA3-4B1C-BE92-0664BF40FAA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AA2CE932-91E2-4EE5-B4B1-4DE98AE57C40}
+		SolutionGuid = {69EE8E53-1329-4BE6-8E51-C119513C1527}
 	EndGlobalSection
 EndGlobal
